@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67b345c4-b6bc-4013-8dcd-94c17f56fde1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ch2/StreamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch1/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch1/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch1/ModernJavaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch1/ComparatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch2/ModernJavaTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +46,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -58,16 +63,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.ModernJavaTest.test1">
+}]]></component>
+  <component name="RunManager" selected="Gradle.StreamTest.test11">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="modern-java-in-action" />
       <working_directory value="$PROJECT_DIR$" />
@@ -87,7 +93,7 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="ModernJavaTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ModernJavaTest.test8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -100,7 +106,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ch1.ModernJavaTest&quot;" />
+            <option value="&quot;ch2.ModernJavaTest.test8&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -110,7 +116,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ModernJavaTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StreamTest.test10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -123,7 +129,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ch2.ModernJavaTest.test1&quot;" />
+            <option value="&quot;ch2.StreamTest.test10&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -133,7 +139,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ModernJavaTest.test2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StreamTest.test11" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -146,7 +152,51 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ch1.ModernJavaTest.test2&quot;" />
+            <option value="&quot;ch2.StreamTest.test11&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StreamTest.test9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ch2.StreamTest.test9&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'modern-java-in-action.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -166,9 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ModernJavaTest.test1" />
-        <item itemvalue="Gradle.ModernJavaTest.test2" />
-        <item itemvalue="Gradle.ModernJavaTest" />
+        <item itemvalue="Gradle.StreamTest.test11" />
+        <item itemvalue="Gradle.Tests in 'modern-java-in-action.test'" />
+        <item itemvalue="Gradle.StreamTest.test10" />
+        <item itemvalue="Gradle.StreamTest.test9" />
+        <item itemvalue="Gradle.ModernJavaTest.test8" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +233,7 @@
       <option name="presentableId" value="Default" />
       <updated>1758704477903</updated>
       <workItem from="1758704480295" duration="8774000" />
-      <workItem from="1759049768653" duration="3765000" />
+      <workItem from="1759049768653" duration="18027000" />
     </task>
     <servers />
   </component>

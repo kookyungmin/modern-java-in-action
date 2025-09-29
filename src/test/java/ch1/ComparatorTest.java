@@ -10,9 +10,9 @@ import java.util.function.Function;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ModernJavaTest {
+public class ComparatorTest {
     @Test
-    @DisplayName("Function 예제")
+    @DisplayName("map function 예제")
     public void test1() {
         List<String> list = List.of("1", "2", "3") ;
         List<Integer> expected = List.of(1, 2, 3);
