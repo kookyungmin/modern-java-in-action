@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="67b345c4-b6bc-4013-8dcd-94c17f56fde1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <command value="gradle jmh" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.WordCounterTest.test3">
+  <component name="RunManager" selected="Gradle.LambdaTest.test2">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="modern-java-in-action" />
       <working_directory value="$PROJECT_DIR$" />
@@ -96,7 +95,7 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="ParallelTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CollectionsTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -109,7 +108,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ch2.ParallelTest.test1&quot;" />
+            <option value="&quot;ch3.CollectionsTest.test1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -119,7 +118,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ParallelTest.test2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CollectionsTest.test2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,7 +131,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ch2.ParallelTest.test2&quot;" />
+            <option value="&quot;ch3.CollectionsTest.test2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LambdaTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ch3.LambdaTest.test1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LambdaTest.test2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ch3.LambdaTest.test2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -165,48 +210,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="modern-java-in-action [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="assemble" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="modern-java-in-action [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="aws.lambda" factoryName="Remote">
       <option name="credentialProviderId" />
       <option name="regionId" />
@@ -217,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LambdaTest.test2" />
+        <item itemvalue="Gradle.LambdaTest.test1" />
+        <item itemvalue="Gradle.CollectionsTest.test2" />
+        <item itemvalue="Gradle.CollectionsTest.test1" />
         <item itemvalue="Gradle.WordCounterTest.test3" />
-        <item itemvalue="Gradle.ParallelTest.test2" />
-        <item itemvalue="Gradle.ParallelTest.test1" />
-        <item itemvalue="Gradle.modern-java-in-action [build]" />
-        <item itemvalue="Gradle.modern-java-in-action [assemble]" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1758704477903</updated>
       <workItem from="1758704480295" duration="8774000" />
-      <workItem from="1759049768653" duration="28712000" />
+      <workItem from="1759049768653" duration="34813000" />
     </task>
     <servers />
   </component>
