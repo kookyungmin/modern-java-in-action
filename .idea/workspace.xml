@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67b345c4-b6bc-4013-8dcd-94c17f56fde1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ch2/StreamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch1/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch1/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch1/ModernJavaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch1/ComparatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch2/ModernJavaTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +65,18 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true"
+    "go.import.settings.migrated": "true",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.StreamTest.test11">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle assemble" />
+      <command value="gradle build" />
+      <command value="gradle jmh" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.WordCounterTest.test3">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="modern-java-in-action" />
       <working_directory value="$PROJECT_DIR$" />
@@ -93,7 +96,7 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="ModernJavaTest.test8" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ParallelTest.test1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -106,7 +109,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ch2.ModernJavaTest.test8&quot;" />
+            <option value="&quot;ch2.ParallelTest.test1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -116,7 +119,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StreamTest.test10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ParallelTest.test2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -129,7 +132,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ch2.StreamTest.test10&quot;" />
+            <option value="&quot;ch2.ParallelTest.test2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -139,7 +142,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StreamTest.test11" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WordCounterTest.test3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -152,7 +155,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ch2.StreamTest.test11&quot;" />
+            <option value="&quot;ch2.WordCounterTest.test3&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -162,7 +165,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="StreamTest.test9" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="modern-java-in-action [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -173,19 +176,17 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ch2.StreamTest.test9&quot;" />
+            <option value="assemble" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'modern-java-in-action.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="modern-java-in-action [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -196,12 +197,12 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -216,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StreamTest.test11" />
-        <item itemvalue="Gradle.Tests in 'modern-java-in-action.test'" />
-        <item itemvalue="Gradle.StreamTest.test10" />
-        <item itemvalue="Gradle.StreamTest.test9" />
-        <item itemvalue="Gradle.ModernJavaTest.test8" />
+        <item itemvalue="Gradle.WordCounterTest.test3" />
+        <item itemvalue="Gradle.ParallelTest.test2" />
+        <item itemvalue="Gradle.ParallelTest.test1" />
+        <item itemvalue="Gradle.modern-java-in-action [build]" />
+        <item itemvalue="Gradle.modern-java-in-action [assemble]" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +234,7 @@
       <option name="presentableId" value="Default" />
       <updated>1758704477903</updated>
       <workItem from="1758704480295" duration="8774000" />
-      <workItem from="1759049768653" duration="18027000" />
+      <workItem from="1759049768653" duration="28712000" />
     </task>
     <servers />
   </component>

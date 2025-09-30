@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'me.champeau.jmh' version '0.7.2'
 }
 
 group 'net.happykoo'
@@ -13,6 +14,8 @@ dependencies {
     implementation 'org.projectlombok:lombok:1.18.38'
     annotationProcessor 'org.projectlombok:lombok:1.18.38'
 
+    jmh 'org.openjdk.jmh:jmh-core:1.35'
+    jmhAnnotationProcessor 'org.openjdk.jmh:jmh-generator-annprocess:1.35'
     testImplementation 'org.projectlombok:lombok:1.18.38'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.38'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
