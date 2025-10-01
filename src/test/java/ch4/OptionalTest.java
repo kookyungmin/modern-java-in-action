@@ -6,10 +6,9 @@ import org.junit.jupiter.api.Test;
 import java.util.Optional;
 import java.util.Properties;
 
-import static java.util.Optional.ofNullable;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class OptionalAndDateTest {
+public class OptionalTest {
     @Test
     @DisplayName("Optional map, flatMap, filter 는 :: 값이 있을 때만 호출")
     public void test1() {
